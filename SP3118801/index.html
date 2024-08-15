@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="style.css">
 
 <head>
     <meta charset="UTF-8">
@@ -23,9 +24,9 @@
                 <label for="taxaB">Taxa de Crescimento anual do país B:</label>
                 <input type="number" id="taxaB" placeholder="Taxa de Crescimento do país B">
             </div>
-            <button onclick="calcularAnos()">Calcular</button>
-            <button onclick="limparCampos()">Limpar</button>
-            <br><br><br>
+            <button type="button" onclick="calcularAnos()">Calcular</button>
+            <br><br>
+            <button type="button" onclick="limparCampos()">Limpar</button>
         </form>
         <div id="resultado"></div>
     </div>
